@@ -7,9 +7,9 @@ export default function About() {
   console.log(a);
   let navigate = useNavigate();
   useEffect(() => {
-    if (!localStorage.getItem("iNote_login")) {
-      navigate("/login");
-    }
+    // if (!localStorage.getItem("iNote_login")) {
+    //   navigate("/login");
+    // }
   }, [navigate]);
 
   return (
